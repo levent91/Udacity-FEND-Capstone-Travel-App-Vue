@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="footer-title">{{FooterTitle}}</div>
-    <div class="footer-share"></div>
+    <div class="footer-share"></div> //add share buttons with flex spacebetween if needed
   </div>
 </template>
 
