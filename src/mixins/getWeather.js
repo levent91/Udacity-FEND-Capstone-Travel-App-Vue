@@ -55,7 +55,7 @@ var getWeather = {
            this.selectedPrecip = this.selectedPrecip.reverse()
            this.selectedText = this.selectedText.reverse()
            for (i = 0; i < this.selectedDates.length; i++) { //posting the results to DOM
-           console.log(100 * this.selectedPrecip[i].toFixed(2)) //to trigger result
+           console.log(100 * this.selectedPrecip[i].toFixed(2)) //to trigger error if there is any
          }
          }).catch ((error)=>{
            console.log(error)
